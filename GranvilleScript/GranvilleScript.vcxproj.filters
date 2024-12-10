@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Src">
+      <UniqueIdentifier>{e1b56f52-5449-442f-ad76-1c02d8e9f070}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Lexico">
+      <UniqueIdentifier>{ca9afb73-33ad-4662-8b5f-ff6c8eee5d0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\testes">
+      <UniqueIdentifier>{99df9121-6568-46e4-9baa-161f5000ea6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Compilador">
+      <UniqueIdentifier>{5d379ae5-fb37-4a99-889a-001103354c9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Textos">
+      <UniqueIdentifier>{c6d8d47f-ab58-4e24-b56c-283a094bbad8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Operacoes.h">
+      <Filter>Src\Lexico</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpretador.h">
+      <Filter>Src\Lexico</Filter>
+    </ClCompile>
+    <ClCompile Include="Operacoes.cpp">
+      <Filter>Src\Lexico</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpretador.cpp">
+      <Filter>Src\Lexico</Filter>
+    </ClCompile>
+    <ClCompile Include="Compilador.cpp">
+      <Filter>Src\Compilador</Filter>
+    </ClCompile>
+    <ClCompile Include="Padronizar.cpp">
+      <Filter>Src\Textos</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Compilador.h">
+      <Filter>Src\Compilador</Filter>
+    </ClInclude>
+    <ClInclude Include="Padronizar.h">
+      <Filter>Src\Textos</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Main.grs">
+      <Filter>Src\testes</Filter>
+    </None>
+  </ItemGroup>
+</Project>
